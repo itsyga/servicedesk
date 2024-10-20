@@ -15,6 +15,6 @@ public class Status {
     @Column(name = "id", nullable = false, unique = true)
     private Integer id;
 
-    @Column(name = "name", length = 50)
+    @Column(name = "name", length = 50, nullable = false, unique = true)
     private String name;
 }
