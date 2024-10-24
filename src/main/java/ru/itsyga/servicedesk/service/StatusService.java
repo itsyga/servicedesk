@@ -2,8 +2,8 @@ package ru.itsyga.servicedesk.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.itsyga.servicedesk.dto.StatusRequestPayload;
-import ru.itsyga.servicedesk.dto.StatusResponsePayload;
+import ru.itsyga.servicedesk.dto.status.StatusRequestPayload;
+import ru.itsyga.servicedesk.dto.status.StatusResponsePayload;
 import ru.itsyga.servicedesk.mapper.StatusMapper;
 import ru.itsyga.servicedesk.repository.StatusRepository;
 

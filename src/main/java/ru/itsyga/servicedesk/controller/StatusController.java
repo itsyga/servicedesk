@@ -7,8 +7,8 @@ import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-import ru.itsyga.servicedesk.dto.StatusRequestPayload;
-import ru.itsyga.servicedesk.dto.StatusResponsePayload;
+import ru.itsyga.servicedesk.dto.status.StatusRequestPayload;
+import ru.itsyga.servicedesk.dto.status.StatusResponsePayload;
 import ru.itsyga.servicedesk.service.StatusService;
 
 import java.util.List;

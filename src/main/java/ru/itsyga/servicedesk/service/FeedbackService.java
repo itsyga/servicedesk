@@ -2,8 +2,8 @@ package ru.itsyga.servicedesk.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.itsyga.servicedesk.dto.FeedbackRequestPayload;
-import ru.itsyga.servicedesk.dto.FeedbackResponsePayload;
+import ru.itsyga.servicedesk.dto.feedback.FeedbackRequestPayload;
+import ru.itsyga.servicedesk.dto.feedback.FeedbackResponsePayload;
 import ru.itsyga.servicedesk.mapper.FeedbackMapper;
 import ru.itsyga.servicedesk.repository.FeedbackRepository;
 

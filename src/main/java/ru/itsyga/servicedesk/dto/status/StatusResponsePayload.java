@@ -1,4 +1,4 @@
-package ru.itsyga.servicedesk.dto;
+package ru.itsyga.servicedesk.dto.status;
 
 import lombok.Getter;
 import lombok.Setter;

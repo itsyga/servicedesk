@@ -7,8 +7,8 @@ import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-import ru.itsyga.servicedesk.dto.FeedbackRequestPayload;
-import ru.itsyga.servicedesk.dto.FeedbackResponsePayload;
+import ru.itsyga.servicedesk.dto.feedback.FeedbackRequestPayload;
+import ru.itsyga.servicedesk.dto.feedback.FeedbackResponsePayload;
 import ru.itsyga.servicedesk.service.FeedbackService;
 
 import java.util.List;
